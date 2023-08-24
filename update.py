@@ -60,3 +60,6 @@ def story():
     filled_template = templates.get(template_choice)
     generate_story = filled_template.format (number = number , number2 = number2 , time = time , transportation = transportation , color = color , part_of_body = part_of_body , part_of_body_2 = part_of_body_2 , adjective = adjective , adjective2 = adjective2 , adjective3 = adjective3 , adjective4 = adjective4 , adjective5 = adjective5 , adjective_feeling = adjective_feeling , adjective_feeling_2 = adjective_feeling_2 , verb = verb , verb2 = verb2 , verb_end_in_ing = verb_end_in_ing , noun = noun , noun2 = noun2 , noun3 = noun3 , noun4 = noun4 , noun5 = noun5 , adverb = adverb , plural = plural , plural2 = plural2 , plural3 = plural3 , silly_word = silly_word  , animal = animal  , plural4 = plural4 , proper_noun = proper_noun , room = room , place = place )
     print(generate_story )
+
+
+story()
